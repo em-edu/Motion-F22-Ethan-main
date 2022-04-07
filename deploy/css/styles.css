@@ -456,7 +456,6 @@ header > div aside a {
 #hero {
   height: 90vh;
   width: 100%;
-  overflow: hidden;
 }
 @media (min-width: 1440px) {
   #hero {
@@ -466,6 +465,15 @@ header > div aside a {
   }
 }
 #hero > div {
+  overflow: hidden;
+  height: 100%;
+}
+@media (min-width: 1440px) {
+  #hero > div {
+    grid-area: hero;
+  }
+}
+#hero > div article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,32 +482,27 @@ header > div aside a {
   background-position: center;
   background-size: cover;
 }
-@media (min-width: 1440px) {
-  #hero > div {
-    grid-area: hero;
-  }
-}
-#hero > div #hero-content {
+#hero > div article #hero-content {
   color: #fff;
   text-align: center;
 }
-#hero > div #hero-content h1 {
+#hero > div article #hero-content h1 {
   font-size: 5rem;
   font-weight: 900;
   line-height: 117px;
   text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 768px) {
-  #hero > div #hero-content h1 {
+  #hero > div article #hero-content h1 {
     font-size: 5.625rem;
   }
 }
 @media (min-width: 768px) {
-  #hero > div #hero-content h1 {
+  #hero > div article #hero-content h1 {
     font-size: 6.25rem;
   }
 }
-#hero > div #hero-content h2 {
+#hero > div article #hero-content h2 {
   font-size: 2rem;
   font-weight: 400;
   line-height: 47px;
@@ -507,13 +510,13 @@ header > div aside a {
   margin-top: -25px;
 }
 @media (min-width: 768px) {
-  #hero > div #hero-content h2 {
+  #hero > div article #hero-content h2 {
     font-size: 2.5rem;
     margin-top: -20px;
   }
 }
 @media (min-width: 768px) {
-  #hero > div #hero-content h2 {
+  #hero > div article #hero-content h2 {
     font-size: 2.5rem;
     margin-top: -15px;
   }
