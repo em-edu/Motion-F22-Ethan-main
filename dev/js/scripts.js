@@ -42,8 +42,8 @@ const mainTL = gsap.timeline();
 
 mainTL
 .from("#hero article", {duration:2, yPercent:50})
-.from("#hero h2", {duration:0.5, y:200, rotation:180, color:"#ec6602", alpha:0}, "herotext+=0.5")
-.from("#hero h1", {duration:0.5, y:"+=200", rotation:180, alpha:0}, "herotext+=0.5")
+.from("#hero h2", {duration:0.5, y:200, rotation:180, color:"#ec6602", alpha:0}, "herotext")
+.from("#hero h1", {duration:0.5, y:"+=200", rotation:180, alpha:0}, "herotext")
 
 
 
