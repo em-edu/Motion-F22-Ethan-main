@@ -423,3 +423,23 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+    Demo
+============= */
+.box {
+  height: 200px;
+  width: 200px;
+  margin: 0;
+}
+
+.red-box {
+  background-color: #fe0000;
+}
+
+.blue-box {
+  background-color: #003cff;
+}
+
+.green-box {
+  background-color: #109e00;
+}
