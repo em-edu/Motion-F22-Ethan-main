@@ -2,7 +2,7 @@
     position: absolute;
     height: 100vh;
     width: 100%;
-    z-index: 1000;
+    z-index: 500;
     background-color: $blue;
 
 
@@ -17,4 +17,8 @@
             boder: 1px solid red;
         }
     }
+}
+
+.gs-dev-tools{
+    z-index: 550;
 }

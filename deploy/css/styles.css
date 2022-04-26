@@ -457,7 +457,7 @@ header > div aside a {
   position: absolute;
   height: 100vh;
   width: 100%;
-  z-index: 1000;
+  z-index: 500;
   background-color: #293241;
 }
 #preloader-container > div {
@@ -468,6 +468,10 @@ header > div aside a {
 }
 #preloader-container > div svg {
   boder: 1px solid red;
+}
+
+.gs-dev-tools {
+  z-index: 550;
 }
 
 #hero {
