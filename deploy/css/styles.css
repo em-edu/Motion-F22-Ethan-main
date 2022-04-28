@@ -474,6 +474,10 @@ header > div aside a {
   z-index: 550;
 }
 
+.copy-motion-path {
+  z-index: 550;
+}
+
 #hero {
   height: 90vh;
   width: 100%;
