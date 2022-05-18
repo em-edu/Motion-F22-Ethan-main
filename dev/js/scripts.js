@@ -6,6 +6,11 @@ const mainTL = gsap.timeline();
 let PERC = {num:0};
 let PERC_num = document.querySelector("#percentage_txt tspan");
 
+//Random code example
+// let random = gsap.utils.random([0, 1, 2]);
+// let tlArray = [tl0, tl1, tl2];
+// console.log("random= "+random);
+// tlArray[random].play();
 
 
 function setStage(){
