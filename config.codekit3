@@ -46,12 +46,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/demo.kit": {
+	"/dev/content/svg-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/demo.html",
+		"oAP": "/dev/content/svg-content.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -180,6 +180,14 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/helpers/_mixins.scss.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_mixins.scss.zip",
+		"oF": 0
+		},
 	"/dev/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -215,19 +223,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_demo.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
